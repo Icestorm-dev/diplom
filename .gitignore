@@ -1,0 +1,38 @@
+# 👉 Исключаем IDE
+.idea/
+
+# 👉 Исключаем виртуальное окружение
+.venv/
+venv/
+
+# 👉 Python и Django
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env
+db.sqlite3
+*.DS_Store
+
+# 👉 React (frontend)
+frontend/node_modules/
+frontend/.env
+frontend/build/
+frontend/dist/
+
+# 👉 Общие
+*.swp
+*.bak
+*.tmp
+*.orig
+
+#удаляем файл 
+postman.txt
+
+# Игнорируем зависимости в папке frontend
+frontend/node_modules/
